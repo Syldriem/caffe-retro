@@ -1,0 +1,97 @@
+body,
+html {
+	/* background-image: url("/assets/hot.jpg");
+    background-repeat: no-repeat;
+    display: flex; */
+	height: 100%;
+	margin: 0;
+	font-family: "Spirax", sans-serif;
+}
+
+.bg-image-hot {
+	background-image: url("/assets/hot.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    height: 100%;
+}
+
+.bg-image-juicy {
+	background-image: url("/assets/juicy.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    height: 100%;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	width: 100%;
+    color: whitesmoke;
+    gap: 3rem;
+    height: 10%;
+    background: rgba(0,0,0, .5);
+}
+
+.header .nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: xx-large;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    top: 40%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    width: 25rem;
+    color:whitesmoke;
+    gap: 1rem;
+	font-family: "Poiret One", sans-serif;
+    
+}
+.main .title {
+    align-self: center;
+    color: darkred;
+    font-size: 7rem;
+	font-family: "Spirax", sans-serif;
+}
+
+.main .text1 {
+    align-self: flex-start;
+    background-color: darkred;
+    font-size: larger;
+}
+
+.main .text2 {
+    align-self: flex-end;
+    background-color: darkred;
+    font-size: larger;
+}
+
+.main .info-container {
+    background-color: black;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: larger;
+    padding: 2rem;
+}
+.info-container .start {
+    display: flex;
+    justify-content: space-between;
+}
+
